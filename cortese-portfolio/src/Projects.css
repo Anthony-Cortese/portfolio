@@ -1,0 +1,29 @@
+.projects-div {
+    height: 100vh;
+    
+}
+
+.projects-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.imdb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    border: 1px solid black;
+    height: 24rem;
+    width: 40rem;
+}
+
+.imdb-logo {
+    height: 12rem;
+    width: 23rem;   
+}
+
+.imdb-info {
+    margin: .5rem;
+}
+

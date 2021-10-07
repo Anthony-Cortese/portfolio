@@ -1,0 +1,10 @@
+.tech-div {
+    height: 100vh;
+
+}
+
+.info-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
