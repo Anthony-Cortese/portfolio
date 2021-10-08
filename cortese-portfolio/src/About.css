@@ -17,7 +17,7 @@
 .ab-tit {
     position: relative;
     top: 8.5rem;
-    right: 22rem;
+    /* right: 22rem; */
 
 }
 
@@ -41,13 +41,13 @@
 
 .img-about {
     /* width: 33%; */
-    width: 36rem;
-    height: 40rem;
+    min-width: 38%;
+    min-height: 70%;
 }
 
 .blue {
-    width: 36rem;
-    height: 40rem;
+    /* width: 40%; */
+    min-height: 70%;
     
 
     

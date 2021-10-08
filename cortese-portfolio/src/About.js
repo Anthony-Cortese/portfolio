@@ -33,14 +33,14 @@ function About() {
             <AiFillGithub className="icons" />{" "}
           </a>
         </div>
-        <div className="img-about">
+        {/* <div className="img-about">
           <img
             className="blue"
             src="https://i.postimg.cc/HxYGFGm1/bkg.png"
             border="0"
             alt="bkg"
           />
-        </div>
+        </div> */}
       </div>
     </div>
   );

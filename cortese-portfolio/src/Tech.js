@@ -5,7 +5,7 @@ function Tech() {
   return (
     <div className="tech-div">
       <div className="info-div">
-        <h1 className="tech-title">Technologies.</h1>
+        <h1 className="tech-title">Tech.</h1>
       </div>
       <div className="all-lang">
         <div className="frontend">
