@@ -1,29 +1,84 @@
 .projects-div {
-    height: 100vh;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
     
 }
 
 .projects-info {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-evenly;
+}
+.projects-title {
+    position: relative;
+    top: 9rem;
+    right: 16rem;
+
+}
+
+.projects {
+    font-weight: bolder;
+    font-size: 150px;
 }
 
 .imdb {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
     border: 1px solid black;
-    height: 24rem;
-    width: 40rem;
+    height: 50rem;
+    width: 79rem;
+    object-fit: contain;
 }
 
 .imdb-logo {
-    height: 12rem;
-    width: 23rem;   
+    height: 22rem;
+    width: 43rem;   
 }
 
 .imdb-info {
+    height: 50rem;
+    width: 79rem;
     margin: .5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.two {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 75rem;
+    width: 79rem;
+}
+
+.family-promise {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    height: 50rem;
+    width: 41rem;
+    object-fit: contain;
+}
+
+.family-img {
+    height: 14rem;
+    width: 25rem;
+}
+
+.family-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 

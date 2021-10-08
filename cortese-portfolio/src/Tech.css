@@ -1,10 +1,56 @@
 .tech-div {
     height: 100vh;
+    
 
+}
+
+.tech-title {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 150px;
 }
 
 .info-div {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    top: 9rem;
+    right: 8rem;
+}
+
+.all-lang {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.frontend {
+    border: 1px solid black;
+    height: 40%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.backend {
+    border: 1px solid black;
+    height: 40%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tools {
+    border: 1px solid black;
+    height: 40%;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }

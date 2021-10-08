@@ -7,14 +7,6 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="main-nav">
-      {/* <nav className="spinner1">
-        <img
-          className="spinner"
-          src="https://i.ibb.co/HpDh4Qj/kisspng-north-south-arah-hotel-location-inception-clip-free-download-on-new-vitruvian-5d18448e24cf02.png"
-          alt="spinner"
-          border="0"
-        />
-      </nav> */}
 
       <div className="nav-links">
         {/* <Link to="/"> */}
