@@ -16,7 +16,7 @@
     justify-content: center;
     position: relative;
     top: 9rem;
-    /* right: 8rem; */
+    right: 23%;
 }
 
 .all-lang {
@@ -26,31 +26,34 @@
 }
 
 .frontend {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 40%;
     width: 22%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #CDF2CA;
 }
 
 .backend {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 40%;
     width: 22%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFDEFA;
 }
 
 .tools {
-    border: 1px solid black;
+    /* border: 1px solid black; */
     height: 40%;
     width: 22%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: #FFC898;
 }

@@ -1,10 +1,67 @@
 .home-div {
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    height: 100vh;
+    background-image: url("https://i.postimg.cc/Zn2L4VyR/portfolio-tony.png");
+    background-repeat: no-repeat;
+    /* background-image: 587px; */
+}
+
+.first {
+    justify-content: flex-start;
+    position: relative;
+}
+
+.middle {
+    /* width: 50% */
+    /* justify-content: center; */
+}
+
+.last {
+    /* justify-content: flex-end; */
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    width: 25%;
+    /* border: 1px solid red; */
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+
 }
+.name1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 1px solid red; */
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+.name2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    width: 85%;
+    /* border: 1px solid red; */
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    font-weight: bolder;
+    font-size: 60px;
+}
+
 
 .img-div {
     display: flex;
@@ -13,6 +70,7 @@
     align-items: center;
     width: 847px;
     height: 648px;
+    background-image: url("https://i.postimg.cc/Zn2L4VyR/portfolio-tony.png");
 }
 
 .home-img {
@@ -22,4 +80,5 @@
     align-items: center;
     width: 847px;
     height: 648px;
+    /* margin-top: 8rem; */
 }

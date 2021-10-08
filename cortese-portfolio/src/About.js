@@ -36,7 +36,7 @@ function About() {
         {/* <div className="img-about">
           <img
             className="blue"
-            src="https://i.postimg.cc/HxYGFGm1/bkg.png"
+            src="https://i.postimg.cc/Zn2L4VyR/portfolio-tony.png"
             border="0"
             alt="bkg"
           />

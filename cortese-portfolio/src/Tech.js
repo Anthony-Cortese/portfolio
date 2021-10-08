@@ -24,6 +24,14 @@ function Tech() {
           </ul>
         </div>
         <div className="backend">
+          <div className="be-img">
+            <img
+              className="be-i"
+              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
+              border="0"
+              alt="Group-1"
+            />
+          </div>
           <h3>Back-end</h3>
           <ul className="be-tech">
             <li>Express</li>

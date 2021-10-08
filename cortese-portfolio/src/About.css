@@ -6,6 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    
 
     }
 
@@ -17,7 +18,7 @@
 .ab-tit {
     position: relative;
     top: 8.5rem;
-    /* right: 22rem; */
+    right: 18%;
 
 }
 
@@ -27,7 +28,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 1px solid black;
+    background-color: #CDF2CA;
+    
 
 
 }
@@ -37,17 +39,19 @@
     width: 65%;
     display: flex;
     flex-direction: row;
+    /* border: 1px solid black; */
 }
 
 .img-about {
-    /* width: 33%; */
-    min-width: 38%;
-    min-height: 70%;
+    border: 1px solid black;
+    /* width: 40%;
+    height: 70%; */
 }
 
 .blue {
-    /* width: 40%; */
-    min-height: 70%;
+
+    width: 30rem;
+    height: 30rem;
     
 
     
