@@ -12,9 +12,7 @@ function About() {
 
       <div className="about-div">
         <div className="about-info">
-          <Link>
-            <h1 className="email">anthonykcortese@gmail.com</h1>
-          </Link>
+          <h1 className="email">anthonykcortese@gmail.com</h1>
           <div className="about-para">
             <h1 className="line">___________</h1>
             <p>
