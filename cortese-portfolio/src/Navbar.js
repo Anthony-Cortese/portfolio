@@ -7,16 +7,13 @@ import "./Navbar.css";
 function Navbar() {
   return (
     <div className="main-nav">
-
       <div className="nav-links">
         {/* <Link to="/"> */}
-        <nav>home</nav>
         {/* </Link> */}
         {/* <Link to="/AboutMe"> */}
         <nav>about me</nav>
         {/* </Link> */}
         {/* <Link to="/Projects"> */}
-        <nav>projects</nav>
         {/* </Link> */}
         {/* <Link to='/Contact'><nav>contact</nav></Link> */}
         <nav>resume</nav>

@@ -1,7 +1,8 @@
 .about {
 
-    height: 100vh;
+    height: 120vh;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif,Source Sans Pro,Helvetica Neue,Arial,sans-serif;
+    /* font-family: 'Anton', sans-serif; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,42 +18,114 @@
 
 .ab-tit {
     position: relative;
-    top: 8.5rem;
-    right: 18%;
+    top: 9.5rem;
+    right: 20%;
 
 }
 
 .about-info {
-    /* height: 75%;
-    width: 65%; */
+    height: 75%;
+    width: 78%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: space-between; */
     background-color: #CDF2CA;
+    
     
 
 
 }
 
 .about-div {
-    height: 70%;
-    width: 65%;
+    height: 100%;
+    width: 66%;
     display: flex;
-    flex-direction: row;
-    /* border: 1px solid black; */
+    flex-direction: column;
+    /* justify-content:space-between; */
+    background-color: #CDF2CA;
+}
+.email {
+    margin: 1rem;
+    margin-top: 2rem;
+    font-size: 30px;
+    font-weight: bolder;
+}
+.about-para {
+    width: 40%;
+    font-size: 17px;
+    margin: 1rem;
 }
 
-.img-about {
-    border: 1px solid black;
-    /* width: 40%;
-    height: 70%; */
+.locate {
+    font-size: 13px;
+    margin: 1rem;
+    margin-bottom: 2rem;
 }
 
-.blue {
-
-    width: 30rem;
-    height: 30rem;
-    
-
-    
+.my-image {
+    width: 30%;
+    height: 65%;
+    object-fit: contain
 }
+.tony {
+    width: 389.19px;
+    height: 722px
+}
+
+@media (max-width: 850px) {
+
+    .about-title {
+        position: relative;
+        bottom: 3rem;
+
+        font-weight: bolder;
+        font-size: 100px;
+    }
+
+}
+
+@media (max-width: 750px) {
+    .about {
+        width: 750px;
+        /* position: relative;
+        left: 10% */
+    }
+
+}
+
+/* @media (max-width: 550px) {
+    .about-title {
+        position: relative;
+        bottom: 4rem;
+        right: 1rem;
+
+        font-weight: bolder;
+        font-size: 80px;
+    }
+    .about-div {
+        height: 50rem;
+        width: 65%;
+        display: flex;
+        flex-direction: row; */
+        /* border: 1px solid black; */
+
+
+/* @media (max-width: 500px) {
+    .about {
+        width: 180vw
+    }
+}
+
+@media (max-width: 400px) {
+    .about {
+        width: 200vw
+    }
+}
+
+
+@media (max-width: 350px) {
+    .about {
+        width: 225vw
+    }
+}
+ */

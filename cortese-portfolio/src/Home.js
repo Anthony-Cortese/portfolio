@@ -4,7 +4,7 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-div">
-      <div className="name">
+      {/* <div className="name">
         <span className="first">Anthony</span>
       </div>
       <div className="name1">
@@ -12,16 +12,22 @@ function Home() {
       </div>
       <div className="name2">
         <span className="last">Cortese</span>
-      </div>
+      </div> */}
 
-      {/* <div className="img-div">
+      <div className="img-div">
         <img
+          className="home-img"
+          src="https://i.postimg.cc/7Z8GvmRY/Untitled-AKC.png"
+          border="0"
+          alt="Untitled-AKC"
+        />
+        {/* <img
           className="home-img"
           src="https://i.postimg.cc/Zn2L4VyR/portfolio-tony.png"
           border="0"
           alt="portfolio-tony"
-        />
-      </div> */}
+        /> */}
+      </div>
     </div>
   );
 }

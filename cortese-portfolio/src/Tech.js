@@ -9,7 +9,15 @@ function Tech() {
       </div>
       <div className="all-lang">
         <div className="frontend">
-          <h3>Front-End</h3>
+          <div className="be-img">
+            <img
+              className="be-i"
+              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
+              border="0"
+              alt="Group-1"
+            />
+          </div>
+          <h3 className="tech-font">Front-End</h3>
           <ul className="fe-tech">
             <li>Javascript</li>
             <li>React JS</li>
@@ -32,7 +40,7 @@ function Tech() {
               alt="Group-1"
             />
           </div>
-          <h3>Back-end</h3>
+          <h3 className="tech-font">Back-end</h3>
           <ul className="be-tech">
             <li>Express</li>
             <li>Node JS</li>
@@ -46,8 +54,39 @@ function Tech() {
             <li>SQLite(3)</li>
           </ul>
         </div>
+      </div>
+      <div className="tools-design">
+        <div className="design">
+          <div className="be-img">
+            <img
+              className="be-i"
+              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
+              border="0"
+              alt="Group-1"
+            />
+          </div>
+          <h3 className="tech-font">Design</h3>
+          <ul className="tools-tech">
+            <li>Adobe Premiere Pro</li>
+            <li>Adobe Photoshop</li>
+            <li>Adobe Illustrator</li>
+            <li>Adobe XD</li>
+            <li>Figma</li>
+            <li>Whimsical</li>
+            {/* <li>Docker</li>
+            <li>Agile Workflow</li> */}
+          </ul>
+        </div>
         <div className="tools">
-          <h3>Tools</h3>
+          <div className="be-img">
+            <img
+              className="be-i"
+              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
+              border="0"
+              alt="Group-1"
+            />
+          </div>
+          <h3 className="tech-font">Tools</h3>
           <ul className="tools-tech">
             <li>Github</li>
             <li>Postman</li>
