@@ -2,7 +2,7 @@ import React from "react";
 import "./About.css";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 function About() {
   return (
     <div className="about">
