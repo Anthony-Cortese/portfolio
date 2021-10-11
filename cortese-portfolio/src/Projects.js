@@ -63,7 +63,7 @@ function Projects() {
                 mission is by offering a variety of services. This app was a
                 tracker for services offered, and a tool for various positions
                 at the organization to see recipients of services, what stage in
-                their journey they were on, what other services they were
+                their journey they were on what other services they were
                 eligible for and much more.
               </p>
             </div>
