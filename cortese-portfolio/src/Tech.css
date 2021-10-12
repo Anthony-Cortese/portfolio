@@ -1,5 +1,5 @@
 .tech-div {
-    height: 180vh;
+    height: 220vh;
 
 
 }
@@ -38,7 +38,7 @@
 .frontend {
     /* border: 1px solid black; */
     height: 40%;
-    width: 33%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,7 +49,7 @@
 .backend {
     /* border: 1px solid black; */
     height: 40%;
-    width: 33%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -60,7 +60,7 @@
 .tools {
     /* border: 1px solid black; */
     height: 40%;
-    width: 33%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -69,7 +69,7 @@
 }
 .design {
     height: 40%;
-    width: 33%;
+    width: 37%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -78,15 +78,85 @@
 
 }
 
+
+.be-i {
+    position: relative;
+    top: 1rem;
+    height: 12rem;
+    width: 14rem;
+}
+
+.be-i2 {
+    position: relative;
+    top: 2rem;
+    height: 12rem;
+    width: 14rem;
+}
+
 ul {
     list-style-type: none;
     text-decoration: none;
     font-size: 32px;
 }
 
+li {
+    position: relative;
+    bottom: 4rem;
+    font-size: 20px;
+}
+
 h3 {
     font-size: 22px;
 }
+
+main {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  li {
+    cursor: pointer;
+    position: relative;
+    /* display: inline-block; */
+    font-size: 1.8rem;
+    background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    background-repeat: no-repeat;
+    transition: background 0.2s ease-out;
+    box-sizing: border-box;
+    margin: 10px;
+    /* white-space: nowrap; */
+  }
+  
+  span {
+    position: relative;
+  }
+  
+  span:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 15px;
+    background: #000;
+    bottom: 9px;
+    transition: all 0.2s ease-out;
+    box-sizing: border-box;
+    
+  }
+  
+  li:hover {
+    background-position: 0 11px;
+  }
+  
+  span:hover:before {
+    transform: translateY(10px)
+  }
+
 @media (max-width: 1300px) {
     .tech-div {
         height: 220vh;
@@ -95,7 +165,7 @@ h3 {
 
 @media (max-width: 1050px) {
     .tech-div {
-        height: 140vh;
+        height: 230vh;
     }
 }
 @media (max-width: 850px) {
@@ -109,13 +179,13 @@ h3 {
 
     }
     .tech-div {
-        height: 210vh;
+        height: 220vh;
         /* width: 150vw; */
     }
 }
 @media (max-width: 750px) {
     .tech-div {
-        height: 360vh;
+        height: 390vh;
         /* position: relative;
         left: 10%; */
         width: 750px;
@@ -189,9 +259,29 @@ h3 {
     }
 }
 
+
+
 @media (max-width: 450px) {
     .tech-div {
-        height: 420vh;
+        height: 410vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-div {
+        height: 570vh;
+    }
+}
+
+@media (max-width: 350px) {
+    .tech-div {
+        height: 650vh;
+    }
+}
+
+@media (max-width: 550px) {
+    .tech-div {
+        height: 410vh;
     }
 }
 /* @media (max-width: 550px) {
@@ -216,13 +306,7 @@ h3 {
     }
 }
 
-@media (max-width: 400px) {
-    .tech-div {
-        position: relative;
-        left: 20%;
-        height: 360vh;
-    }
-}
+
 
 
 

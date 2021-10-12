@@ -1,43 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,900&display=swap');
+
 .home-div {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;
     width: 100vw;
     background-image: url("https://i.postimg.cc/Zn2L4VyR/portfolio-tony.png");
     background-repeat: no-repeat;
+    font-family: 'Ephesis', cursive;
     /* background-image: 587px; */
 }
 
 .img-div {
-    height: 90%;
-    width: 90%;
+    height: 65%;
+    width: 100%;
     /* border: 1px solid red; */
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     object-fit: contain;
+    position: relative;
+    bottom: 10rem;
 }
 
 .home-img {
-    height: 70%;
-    width: 70%
+    height: 90%;
+    width: 90%
 }
+h4 {
+    font-size: 100px;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+  animation: neon 3s linear infinite;
+}
+
+@keyframes neon {
+  50% {
+    opacity: 0;
+  }
+}
+
+.fe {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: block;
+  color: #ffa8a8;
+  font-size: 75px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.fe::before {
+  content: "Front-End Web Developer";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    45deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0;
+  z-index: -1;
+  transition: 1s;
+}
+
+.fe::after {
+  content: "Front-End Web Developer";
+  position: absolute;
+  color: transparent;
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent 0,
+    transparent 2px,
+    white 2px,
+    white 4px
+  );
+  -webkit-background-clip: text;
+  top: 0px;
+  left: 0px;
+  transition: 1s;
+}
+
+.fe:hover:before {
+  top: 10px;
+  left: 10px;
+}
+
+.fe:hover:after {
+  top: -10px;
+  left: -10px;
+} 
+
+
+.fe-dev {
+    width: 90%;
+    height: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    /* bottom: 8rem; */
+}
+
+
+/* h4 {
+    margin: calc(50vh - 40px) auto 0 auto;
+    font-size: 125px;
+    font-family: 'Ephesis', cursive;
+    font-weight: normal;
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+  
+  .logo-1 {
+    color: white;
+    animation: neon;
+  }
+  
+  @keyframes neon {
+    0% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+    50% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 5px var(--shadow-color-light), 0 0 15px var(--shadow-color-light), 0 0 25px var(--shadow-color-light),
+      0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 60px var(--shadow-color), 0 0 80px var(--shadow-color), 0 0 110px var(--shadow-color), 0 0 210px var(--shadow-color);
+    }
+    100% {
+      text-shadow: -1px -1px 1px var(--shadow-color-light), -1px 1px 1px var(--shadow-color-light), 1px -1px 1px var(--shadow-color-light), 1px 1px 1px var(--shadow-color-light),
+      0 0 3px var(--shadow-color-light), 0 0 10px var(--shadow-color-light), 0 0 20px var(--shadow-color-light),
+      0 0 30px var(--shadow-color), 0 0 40px var(--shadow-color), 0 0 50px var(--shadow-color), 0 0 70px var(--shadow-color), 0 0 100px var(--shadow-color), 0 0 200px var(--shadow-color);
+    }
+  } */
 
 .first {
     justify-content: flex-start;
     position: relative;
-}
-
-.middle {
-    /* width: 50% */
-    /* justify-content: center; */
-}
-
-.last {
-    /* justify-content: flex-end; */
 }
 
 .name {

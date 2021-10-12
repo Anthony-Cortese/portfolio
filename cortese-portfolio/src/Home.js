@@ -4,6 +4,9 @@ import "./Home.css";
 function Home() {
   return (
     <div className="home-div">
+      <div className="fontpage-display">
+        <h4 className="logo-1">Anthony Cortese</h4>
+      </div>
       {/* <div className="name">
         <span className="first">Anthony</span>
       </div>
@@ -21,6 +24,11 @@ function Home() {
           border="0"
           alt="Untitled-AKC"
         />
+
+        <div className="fe-dev">
+          <span className="fe"> Front-End Web Developer</span>
+        </div>
+
         {/* <img
           className="home-img"
           src="https://i.postimg.cc/Zn2L4VyR/portfolio-tony.png"

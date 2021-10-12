@@ -20,6 +20,8 @@
     font-size: 150px;
 }
 
+
+
 .clone {
     position: relative;
     /* bottom: 2rem; */
@@ -33,7 +35,7 @@
     /* align-items: center; */
     /* border: 1px solid black; */
     height: 50%;
-    width: 66%;
+    width: 74%;
     background-color: #ffe577;
 }
 .imdb-para {
@@ -57,6 +59,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-size: 20px;
 }
 
 .two {
@@ -64,7 +67,7 @@
     flex-direction: row;
     justify-content: center;
     height: 85%;
-    width: 66%;
+    width: 74%;
 }
 .fp-text {
     font-size: 40px;
@@ -88,9 +91,10 @@
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
-    height: 80%;
+    height: 95%;
     min-width: 50%;
     background-color: #fec051;
+    font-size: 16px;
 }
 
 .family-promise1 {
@@ -99,7 +103,7 @@
     justify-content: center;
     align-items: center;
     /* border: 1px solid black; */
-    height: 80%;
+    height: 95%;
     min-width: 50%;
     background-color: #ff8967;
 }

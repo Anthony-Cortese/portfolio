@@ -19,14 +19,30 @@ function Tech() {
           </div>
           <h3 className="tech-font">Front-End</h3>
           <ul className="fe-tech">
-            <li>Javascript</li>
-            <li>React JS</li>
-            <li>HTML(5)</li>
-            <li>Redux</li>
-            <li>CSS(3)</li>
-            <li>Tailwind CSS</li>
-            <li>Bootstrap(4)</li>
-            <li>Jest</li>
+            <span>
+              <li>Javascript</li>
+            </span>
+            <span>
+              <li>React JS</li>
+            </span>
+            <span>
+              <li>HTML(5)</li>
+            </span>
+            <span>
+              <li>Redux</li>
+            </span>
+            <span>
+              <li>CSS(3)</li>
+            </span>
+            <span>
+              <li>Tailwind CSS</li>
+            </span>
+            <span>
+              <li>Bootstrap(4)</li>
+            </span>
+            <span>
+              <li>Jest</li>
+            </span>
             {/* <li>React Testing Library</li> */}
             <li>Cypress</li>
           </ul>
@@ -59,8 +75,8 @@ function Tech() {
         <div className="design">
           <div className="be-img">
             <img
-              className="be-i"
-              src="https://i.postimg.cc/HxB7G7JW/Group-1.png"
+              className="be-i2"
+              src="https://i.postimg.cc/SRGT0DLX/Group-1.png"
               border="0"
               alt="Group-1"
             />
@@ -92,7 +108,7 @@ function Tech() {
             <li>Postman</li>
             <li>npm</li>
             <li>Trello</li>
-            <li>Slack</li>
+            {/* <li>Slack</li> */}
             <li>Docker</li>
             <li>Agile Workflow</li>
           </ul>

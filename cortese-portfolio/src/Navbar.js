@@ -11,7 +11,7 @@ function Navbar() {
         {/* <Link to="/"> */}
         {/* </Link> */}
         {/* <Link to="/AboutMe"> */}
-        <nav>about me</nav>
+        <nav>about</nav>
         {/* </Link> */}
         {/* <Link to="/Projects"> */}
         {/* </Link> */}

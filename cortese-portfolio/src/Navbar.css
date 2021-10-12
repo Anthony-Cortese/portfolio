@@ -100,3 +100,18 @@ nav:hover, nav:active { text-decoration: none; }
     width: 750px;
   }
 }
+
+@media (max-width: 560px) {
+  .nav-links {
+    font-size: 12px;
+    padding: 2px;
+
+  }
+  .icons {
+    font-size: 24px;
+  }
+
+  .main-nav {
+    width: 750px;
+  }
+}
