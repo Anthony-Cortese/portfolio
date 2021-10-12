@@ -1,0 +1,22 @@
+.copyright-div {
+    height: 20vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-cop {
+    
+}
+
+.spin {
+    height: 8rem;
+    width: 10rem;
+}
+
+.spin1 {
+    height: 5rem;
+    width: 4rem;
+}

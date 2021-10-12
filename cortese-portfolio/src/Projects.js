@@ -19,7 +19,7 @@ function Projects() {
             border="0"
             alt="Screen-Shot-2021-10-07-at-5-45-17-PM"
           />
-          <a className="Link">
+          <a className="Link" href="https://akc-imdb.netlify.app/">
             <span className="Link-title">
               IMDb is my favorite website that I use daily, so I decided to
               build it out from scratch which you could call "my version". The
@@ -54,7 +54,10 @@ function Projects() {
               border="0"
               alt="Screen-Shot-2021-10-07-at-5-31-56-PM"
             />
-            <a className="Link1">
+            <a
+              className="Link1"
+              href="https://www.figma.com/proto/iM4t3H148ndBvVf8WmkTuO/Family-Promise?node-id=24%3A10&starting-point-node-id=24%3A10&scaling=scale-down"
+            >
               <span className="Link-title1">
                 Family Promise is a non-profit organization geared to help
                 homeless people get off the street and into self-reliant,
@@ -92,7 +95,7 @@ function Projects() {
               />
             </div>
           </div>
-          <a className="Link2">
+          <a className="Link2" href="https://akc-moviedatabase.netlify.app/">
             <span className="Link-title2">
               This was the first project I personally built out on my own. I
               used two different API's to get the correct information I wanted

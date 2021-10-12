@@ -5,6 +5,7 @@ import Tech from "./Tech";
 import Projects from "./Projects";
 import "./App.css";
 import About from "./About";
+import Copyright from "./Copyright";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Projects />
       <Tech />
       <About />
+      <Copyright />
     </div>
   );
 }
