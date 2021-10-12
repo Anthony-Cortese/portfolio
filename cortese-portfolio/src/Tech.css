@@ -108,18 +108,18 @@ li {
 h3 {
     font-size: 22px;
 }
-
-main {
+/* the black underline code */
+/* main {
     display: flex;
     height: 100%;
     align-items: center;
     justify-content: center;
-  }
+  } */
   
-  li {
+  /* li {
     cursor: pointer;
     position: relative;
-    /* display: inline-block; */
+    display: inline-block;
     font-size: 1.8rem;
     background: linear-gradient(to bottom, #000, #000 60%, #fff 60%, #fff 100%);
     background-clip: text;
@@ -129,7 +129,6 @@ main {
     transition: background 0.2s ease-out;
     box-sizing: border-box;
     margin: 10px;
-    /* white-space: nowrap; */
   }
   
   span {
@@ -155,7 +154,8 @@ main {
   
   span:hover:before {
     transform: translateY(10px)
-  }
+  } */
+
 
 @media (max-width: 1300px) {
     .tech-div {
@@ -275,7 +275,7 @@ main {
 
 @media (max-width: 350px) {
     .tech-div {
-        height: 650vh;
+        height: 750vh;
     }
 }
 

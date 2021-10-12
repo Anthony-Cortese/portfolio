@@ -25,8 +25,8 @@ function Home() {
           alt="Untitled-AKC"
         />
 
-        <div className="fe-dev">
-          <span className="fe"> Front-End Web Developer</span>
+        <div className="threeD">
+          <h2 className="fe"> Front-End Web Developer</h2>
         </div>
 
         {/* <img
