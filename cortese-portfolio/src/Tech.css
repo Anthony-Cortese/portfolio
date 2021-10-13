@@ -165,7 +165,7 @@ h3 {
 
 @media (max-width: 1050px) {
     .tech-div {
-        height: 230vh;
+        height: 120vh;
     }
 }
 @media (max-width: 850px) {
@@ -179,7 +179,7 @@ h3 {
 
     }
     .tech-div {
-        height: 220vh;
+        height: 160vh;
         /* width: 150vw; */
     }
 }
@@ -269,19 +269,25 @@ h3 {
 
 @media (max-width: 400px) {
     .tech-div {
-        height: 570vh;
+        height: 320vh;
     }
 }
 
 @media (max-width: 350px) {
     .tech-div {
-        height: 750vh;
+        height: 1050vh;
     }
 }
 
 @media (max-width: 550px) {
     .tech-div {
         height: 410vh;
+    }
+}
+
+@media (max-width: 400px) {
+    .tech-div {
+        height: 430vh;
     }
 }
 /* @media (max-width: 550px) {

@@ -590,6 +590,11 @@ a, a:focus, a:hover, a:active, a:visited {
     }
 }
 
+@media (max-width: 400px) {
+    .projects-div {
+        height: 410vh;
+    }
+}
 /* @media (max-width: 650px) {
     .two {
         display: flex;
